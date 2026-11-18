@@ -1,0 +1,9 @@
+# M4: Zero-Parameter Equal-Weight Logit Fusion Configuration
+
+model:
+  name: "m4_fusion"
+  expert_3d: "m0_swin_unetr"
+  expert_2p5d: "m2_deeplab_2p5d"
+  fusion_type: "arithmetic_mean"
+  formula: "L_4 = 0.5 * (L_swin + L_deeplab)"
+  num_parameters: 0

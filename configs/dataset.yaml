@@ -1,0 +1,27 @@
+# FeTA Dataset and Preprocessing Configuration
+
+data:
+  raw_root: "./data/raw"
+  preprocessed_root: "./data/preprocessed"
+  num_classes: 8
+  classes:
+    0: "Background"
+    1: "Extra-axial CSF"
+    2: "Gray Matter / Cortical Plate"
+    3: "White Matter / Subplate"
+    4: "Ventricles"
+    5: "Cerebellum"
+    6: "Deep Gray Matter"
+    7: "Brainstem"
+
+splits:
+  split_id: "feta_split_v1_frozen"
+  seed: 20260918
+  protocol: "56_train_8_val_64_final_16_test"
+  phase1_epoch_selection:
+    train_cases: 56  # G1 (32) + G2 (24)
+    val_cases: 8     # G3 (8)
+  phase2_final_training:
+    train_cases: 64  # G1 (32) + G2 (24) + G3 (8)
+  phase3_evaluation:
+    test_cases: 16   # G4 (16)

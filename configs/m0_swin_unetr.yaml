@@ -1,0 +1,29 @@
+model:
+  name: m0_swin_unetr
+  img_size:
+  - 96
+  - 96
+  - 96
+  in_channels: 1
+  out_channels: 8
+  feature_size: 48
+  drop_rate: 0.0
+training:
+  batch_size: 2
+  patch_size:
+  - 96
+  - 96
+  - 96
+  samples_per_case: 4
+  optimizer: AdamW
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  max_epochs: 300
+  loss: 0.5*CE + 0.5*SoftDice
+  seed: 20260918
+  precision: float32
+  lr_schedule: cosine
+  min_epochs: 100
+  val_every: 5
+  patience_checks: 10
+  min_delta: 0.001

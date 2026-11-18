@@ -1,0 +1,40 @@
+stage1_bounded_residual:
+  tile_size: 256
+  lambda_residual: 0.001
+  precision: float32
+  selection: fixed_last_epoch
+  in_channels: 35
+  width: 16
+  delta_max: 2.0
+  parameters: 7512
+  optimizer: AdamW
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  max_epochs: 30
+  batch_size: 4
+  samples_per_case: 64
+  seed: 20260918
+  lr_schedule: constant
+stage2_selective_gating:
+  in_channels: 17
+  width: 16
+  initial_acceptance: 0.99
+  parameters: 14424
+  optimizer: AdamW
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  max_epochs: 30
+  batch_size: 2
+  patch_size:
+  - 64
+  - 64
+  - 64
+  samples_per_case: 16
+  loss:
+    ce_weight: 0.5
+    dice_weight: 0.5
+    retention_keep_weight: 0.05
+  seed: 20260918
+  precision: float32
+  lr_schedule: constant
+  lambda_residual: 0.001

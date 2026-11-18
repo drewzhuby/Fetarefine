@@ -1,0 +1,25 @@
+model:
+  name: m2_deeplab_2p5d
+  backbone: resnet50
+  in_channels: 3
+  out_channels: 8
+  output_stride: 16
+  pretrained: true
+training:
+  batch_size: 4
+  tile_size:
+  - 256
+  - 256
+  optimizer: AdamW
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  max_epochs: 120
+  loss: 0.5*CE + 0.5*SoftDice
+  seed: 20260918
+  precision: float32
+  lr_schedule: cosine
+  min_epochs: 1
+  val_every: 1
+  patience_checks: 20
+  min_delta: 0.001
+  minimum_slice_foreground: 10

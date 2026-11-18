@@ -1,0 +1,21 @@
+model:
+  name: unbounded_residual
+  in_channels: 35
+  width: 16
+  scale: 2.0
+  parameters: 7512
+training:
+  batch_size: 4
+  samples_per_case: 64
+  optimizer: AdamW
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  max_epochs: 30
+  loss: 0.5*CE + 0.5*SoftDice + 0.001*L1_residual
+  seed: 20260918
+  precision: float32
+  lr_schedule: constant
+  tile_size:
+  - 256
+  - 256
+  lambda_residual: 0.001

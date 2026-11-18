@@ -1,0 +1,250 @@
+[
+  {
+    "file": ".gitignore",
+    "sha256": "55977a25c6a9cf1c23e57c0b033ab70f56ae80b7fce896ace4ba61daa9ba673c"
+  },
+  {
+    "file": "README.md",
+    "sha256": "44c4d3e09e5227bc40c3de4e333ab61e11982c6b341808acc0986b42b0f388c2"
+  },
+  {
+    "file": "THIRD_PARTY.md",
+    "sha256": "81b2b74e7b51c60702aaea98745d7e840610d1ba71993ea2797404e30b87d1a0"
+  },
+  {
+    "file": "assets/results.png",
+    "sha256": "7f51501e65823f97ec85f573ce567359e4268f242e895b8b85045fda1d2722fb"
+  },
+  {
+    "file": "configs/ablation_diffunet.yaml",
+    "sha256": "157a1be13c27c62aad2d5135b68ff6f8843d9c118722c6b7c83e876d5950fb8f"
+  },
+  {
+    "file": "configs/ablation_unbounded.yaml",
+    "sha256": "d54c9a1de8b12b05abe18a0572fbadd74a0ccada553394aed1fd81a4b799eb1b"
+  },
+  {
+    "file": "configs/dataset.yaml",
+    "sha256": "31a35ab9c29864d11d57a6b8dbb23f110da9cedaf9d0ba2d769820ebcdb04ca3"
+  },
+  {
+    "file": "configs/m0_swin_unetr.yaml",
+    "sha256": "b51f287f29ead19f35e4a875dd628fc30367f87ea8ddb25d9cf61daf4c1d1cdb"
+  },
+  {
+    "file": "configs/m1_deeplab_2d.yaml",
+    "sha256": "23ac242cf4800676f91cba837a39dc8dfbe959447b18df5603dc68871bfc81e5"
+  },
+  {
+    "file": "configs/m2_deeplab_2p5d.yaml",
+    "sha256": "d8eaf820fe17a8ee037a694701e22299924b0d002e90d77e1b33ef2e3e13e7d1"
+  },
+  {
+    "file": "configs/m3_prior_residual.yaml",
+    "sha256": "9c7b4a77b4c3199d1a90fda598501308e1f5f140f05c93091c60cfd1a6c9d80e"
+  },
+  {
+    "file": "configs/m4_fusion.yaml",
+    "sha256": "6e0049631a67518d39eb0c9061d810f322bd5f8756d777819615d0063cb04c5f"
+  },
+  {
+    "file": "configs/m5_selective.yaml",
+    "sha256": "e3067c2e23a3a623e0395566aff20de0c90a14bef6573b4fa2d71ebb1391d0e5"
+  },
+  {
+    "file": "data/__init__.py",
+    "sha256": "b5beb33beaab18fa4b8da0a12926ed1c7f043ba2adde80d4d7bed57ff98c590a"
+  },
+  {
+    "file": "data/dataset.py",
+    "sha256": "7824ead6ece2faf0a999fcaf975fbf9e735466f9ea7b11699324e828dc29e9cf"
+  },
+  {
+    "file": "data/preprocessing.py",
+    "sha256": "f4fb39b694e07d6cf11bc920e4bf166781b1642b6fc5ee6a45fcc1a137f78f22"
+  },
+  {
+    "file": "data/splits.py",
+    "sha256": "eddbe9afebddda85903ac4927866151b59d65ee2240b196bb68486576f71e904"
+  },
+  {
+    "file": "data/training_dataset.py",
+    "sha256": "a3d453d3976f8120e3d7632392669e0d05cfe54537496564808db1f6219cbd06"
+  },
+  {
+    "file": "data/volumes.py",
+    "sha256": "4f86c1aa067c4c9289a3e847ea6b1cf78945c2547d76e48a36b36905d771c91e"
+  },
+  {
+    "file": "demo.py",
+    "sha256": "68c6feca2388284127b3aebb5619bf5f373e1836719eab8b0b49b689a7fd7eec"
+  },
+  {
+    "file": "docs/TRAINING.md",
+    "sha256": "e63988360a1f5040812f438c088a98fa6b5b6841db6b675f0b03960853ced497"
+  },
+  {
+    "file": "evaluate.py",
+    "sha256": "9234f6e09cc9043cba60236b801780f8442f6a1c514e07a67782c14fddb3ad32"
+  },
+  {
+    "file": "evaluation/__init__.py",
+    "sha256": "9ab9c02b9ef0df7b7ba0b9fa7e974ed9ab2220806c5220178950ea5eaa13f4ed"
+  },
+  {
+    "file": "evaluation/metrics.py",
+    "sha256": "a9de0b751503b692bb73fee799cf33e17a58a91ffc6c03610618278c06ff3db9"
+  },
+  {
+    "file": "infer.py",
+    "sha256": "d4210fefcbcd595786651b29068433d08d0d29374eef371492225e1613df1983"
+  },
+  {
+    "file": "inference.py",
+    "sha256": "fb8b8e040bd739ea2fa708119df69a9715fc49c516a7ebb4a6dcfae723c4de63"
+  },
+  {
+    "file": "models/.DS_Store",
+    "sha256": "f9d25c85c939188f71f83b588f6251d90e3e81f51d89d13490d0419e49292fd9"
+  },
+  {
+    "file": "models/__init__.py",
+    "sha256": "c285561fda9ef88b9be09f76467673aa4452e45ea39ecf21d39ef184610848b3"
+  },
+  {
+    "file": "models/ablation_diffunet.py",
+    "sha256": "8799576a2363c47299bddb7b5c260625b9f5a264e5c67dc6a8c6d1eb0c680488"
+  },
+  {
+    "file": "models/ablation_unbounded.py",
+    "sha256": "82163ea952d5b971dd38d6d41b0b4c9bf795298ac55e046f25c1d87a2b99ba72"
+  },
+  {
+    "file": "models/deeplabv3plus.py",
+    "sha256": "c54f188dc87bbc4ad21728ed4f2155e362399988cb6b30c71de80a9009b33072"
+  },
+  {
+    "file": "models/diffunet_vendor/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "file": "models/diffunet_vendor/PROVENANCE.json",
+    "sha256": "5047f739e11b3b6ab28021107f3e296e9bbea60ebe7735a523139fa0a919c270"
+  },
+  {
+    "file": "models/diffunet_vendor/__init__.py",
+    "sha256": "54493b926c97ff2e87d887c0bec99e645c899de288abf6f75754814d7347c4f9"
+  },
+  {
+    "file": "models/diffunet_vendor/guided_diffusion/__init__.py",
+    "sha256": "ec30483aa641d5c1b9cc8910554324949f2288eadd085310d4c312cdda294c73"
+  },
+  {
+    "file": "models/diffunet_vendor/guided_diffusion/gaussian_diffusion.py",
+    "sha256": "719336435d1e9b997f75378a747fb07872dd215d51eede5ab713b6caec05a9c2"
+  },
+  {
+    "file": "models/diffunet_vendor/guided_diffusion/losses.py",
+    "sha256": "0b0f5a5532910fbc7f16d30f2b891d8f1e20aa88881589ce4eacc2cc6ce06026"
+  },
+  {
+    "file": "models/diffunet_vendor/guided_diffusion/nn.py",
+    "sha256": "d9547fb22b421a16dc079cb82a9d98630100b5e1b2a710d343f4d3f90b8661f3"
+  },
+  {
+    "file": "models/diffunet_vendor/guided_diffusion/resample.py",
+    "sha256": "26a8023d2d4421d3a9b5db1400f6f416590422b46edfd3a05be179c884f381ab"
+  },
+  {
+    "file": "models/diffunet_vendor/guided_diffusion/respace.py",
+    "sha256": "b9a509b28c10a52ca3ee8cc48f40205b1d70aecfc95356b540dc88415368c2de"
+  },
+  {
+    "file": "models/diffunet_vendor/unet/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "models/diffunet_vendor/unet/basic_unet.py",
+    "sha256": "aea0e9663863a0053d873f755236d7afdad4f56a9f75894ea22053edff61ece2"
+  },
+  {
+    "file": "models/diffunet_vendor/unet/basic_unet_denose.py",
+    "sha256": "f1b7d9a854d221ff170857e33cb5626ef177b6f89b441f1438f1f65187a4c113"
+  },
+  {
+    "file": "models/m0_swin_unetr.py",
+    "sha256": "42e84bd19d579b6b0b06d06c33e69abf45fe89f53815c47968d255500df5dcb7"
+  },
+  {
+    "file": "models/m1_deeplab_2d.py",
+    "sha256": "c999d04fb0856fb12abf7001a58145264330d83090ffc7698270f639b3db3c08"
+  },
+  {
+    "file": "models/m2_deeplab_2p5d.py",
+    "sha256": "dbdaa0bb687fa8dab04cba3a6257d44cd51b06956a09f6a96540d0d971b143b5"
+  },
+  {
+    "file": "models/m3_prior_residual.py",
+    "sha256": "88f8026e2b23266c921addc5ff7c7ffaef41b1af2936ea9cb9fd9e8514a80eca"
+  },
+  {
+    "file": "models/m4_fusion.py",
+    "sha256": "4f00e9c908e769f6188ec4186b7f320a15e57bdc60648dd85dd2f871fa4ef0ba"
+  },
+  {
+    "file": "models/m5_selective.py",
+    "sha256": "a90ac166377469ac3491824ce8ea701c42b8ab10441abcc6e52c11a652adced5"
+  },
+  {
+    "file": "requirements.txt",
+    "sha256": "c22ac033199e53146eda930e8f29c1032da4b730b3c122da5b611aa5d90d1e85"
+  },
+  {
+    "file": "results/per_case.csv",
+    "sha256": "6a9e5614496951f1cd05bffe9a6fe35cc5cf81b6adc40d95ac5d30018977a83b"
+  },
+  {
+    "file": "results/summary.json",
+    "sha256": "56d131ddb6037b140114dd0376866ad1cc1dfc6f0cb4ad4fe9f7f5aaf362a275"
+  },
+  {
+    "file": "run_local.sh",
+    "sha256": "846255561e7ab4583042c58e39af9e3de7ff3e50cf523e71fa02f9318a8c6776"
+  },
+  {
+    "file": "runtime.py",
+    "sha256": "c5f084375292d7bb0f239e225336cfcb2ab422414129aa1f3f24f50c2f95a450"
+  },
+  {
+    "file": "tests/test_retraining.py",
+    "sha256": "1e243d6b35ea79ec9f482309082a3daa3c5ed1c71d8291d0f39f58e06e2aec5f"
+  },
+  {
+    "file": "train.py",
+    "sha256": "19924a4265f8d40d9fd34dc247a57a5b611a2c50ccf3be5c3e10fd11dacfa1e1"
+  },
+  {
+    "file": "training/__init__.py",
+    "sha256": "2c9711b5562ee2aa738b4e8cf625eb35e465387288cd5f263bad7bc1e13fc31d"
+  },
+  {
+    "file": "training/br_training.py",
+    "sha256": "27737c6d39facb67752f8ec15f571a210e4e9ccc5a52ca4062598a18ff2a6a93"
+  },
+  {
+    "file": "training/configuration.py",
+    "sha256": "882c5c692cec6eaf489069c5b126220c45ea155a6003746d8199b7f452828773"
+  },
+  {
+    "file": "training/losses.py",
+    "sha256": "5c1da5e0f17e057ee7c7e072325734a0cbeb49d1290e8ce801b9ea376009923b"
+  },
+  {
+    "file": "training/resources.py",
+    "sha256": "4e0f04e7196369cc4862d3dd2cf0b785ab42e5566d71ac5a7e6831842e0d213b"
+  },
+  {
+    "file": "training/trainer.py",
+    "sha256": "051293aaa845e96500d40458d771da657fa7d3992c32d17c820b3ef9a3294727"
+  }
+]

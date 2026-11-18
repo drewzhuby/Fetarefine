@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/ge-xing/Diff-UNet",
+  "commit": "7fcc6fed81241f8e0a62b3584ff20c17eca7a5d1",
+  "subdirectory": "BTCV",
+  "changes": "none; selected files copied byte-for-byte",
+  "files": {
+    "unet/basic_unet.py": "aea0e9663863a0053d873f755236d7afdad4f56a9f75894ea22053edff61ece2",
+    "unet/basic_unet_denose.py": "f1b7d9a854d221ff170857e33cb5626ef177b6f89b441f1438f1f65187a4c113",
+    "unet/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "guided_diffusion/gaussian_diffusion.py": "719336435d1e9b997f75378a747fb07872dd215d51eede5ab713b6caec05a9c2",
+    "guided_diffusion/nn.py": "d9547fb22b421a16dc079cb82a9d98630100b5e1b2a710d343f4d3f90b8661f3",
+    "guided_diffusion/losses.py": "0b0f5a5532910fbc7f16d30f2b891d8f1e20aa88881589ce4eacc2cc6ce06026",
+    "guided_diffusion/respace.py": "b9a509b28c10a52ca3ee8cc48f40205b1d70aecfc95356b540dc88415368c2de",
+    "guided_diffusion/resample.py": "26a8023d2d4421d3a9b5db1400f6f416590422b46edfd3a05be179c884f381ab",
+    "guided_diffusion/__init__.py": "ec30483aa641d5c1b9cc8910554324949f2288eadd085310d4c312cdda294c73"
+  }
+}
